@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(235, 27, 27);
+    color:rgb(255, 250, 250);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0; 
+}
+button{
+background-color: rgb(19, 19, 19);
+color: beige; 
+font-family: 'Times New Roman', Times, serif; 
+}
+.passo{
+display: none;
+}
+.passo.ativo{
+display: block;
+}
